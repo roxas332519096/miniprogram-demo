@@ -1,2 +1,3 @@
-<navigation-bar title="首页"></navigation-bar>
+<navigation-bar title="首页" back="{{false}}"></navigation-bar>
 <view>{{tempComputed}}</view>
+<custom-bar idx="{{0}}"></custom-bar>

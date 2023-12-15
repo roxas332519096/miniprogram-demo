@@ -1,0 +1,13 @@
+<view class="tabBar">
+  <view class="cont">
+    <view wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">
+      <view class="item {{index === 2 ? 'top':''}}" catchtap="goToTab" data-url="{{item.pagePath}}" data-index="{{index}}">
+        <image class="ico" src="{{idx === index ? item.selectedIconPath : item.iconPath}}" />
+        <view class="icon-big-container">
+          <image class="ico-big" src="{{idx === index ? item.selectedIconPath : item.iconPath}}" wx:if="{{index===2}}" />
+        </view>
+        <view class="txt {{idx === index ? 'primary-text' : 'defult-text'}}">{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+</view>

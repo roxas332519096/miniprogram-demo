@@ -1,0 +1,64 @@
+.tabBar {
+    box-sizing: border-box;
+    padding: 0 40rpx 40rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #FFFFFF;
+    z-index: 1000;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+
+    .item {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20rpx 14rpx;
+
+        &.top {
+            position: relative;
+
+            .icon-big-container {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 120rpx;
+                height: 120rpx;
+                top: -34rpx;
+                border-radius: 50%;
+                background: #FFFFFF;
+            }
+
+            .ico-big {
+                width: 70rpx;
+                height: 70rpx;
+
+            }
+
+            .ico {
+                visibility: hidden;
+            }
+        }
+
+
+
+        .ico {
+            width: 50rpx;
+            height: 50rpx;
+        }
+
+        .txt {
+            margin-top: 15rpx;
+            font-size: 24rpx;
+            z-index: 1;
+        }
+
+    }
+
+}

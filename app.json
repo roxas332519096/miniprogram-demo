@@ -1,7 +1,23 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/mine/index"
   ],
+  "tabBar": {
+    "custom": true,
+    "color": "#8F9091",
+    "selectedColor": "#37C674",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
