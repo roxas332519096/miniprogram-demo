@@ -1,0 +1,114 @@
+.empower {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 610rpx;
+    padding: 40rpx 60rpx 100rpx;
+    box-shadow: -2rpx -2rpx 10rpx rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+    background: #FFFFFF;
+    z-index: 1001;
+
+    .title {
+        font-size: 40rpx;
+        line-height: 60rpx;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    .avatar-container {
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        margin-top: 30rpx;
+        padding: 0 20rpx 20rpx;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #F2F2F2;
+
+        .avatar {
+            width: 100rpx;
+            height: 100rpx;
+            border-radius: 50rpx;
+        }
+
+        .input {
+            padding: 0;
+            flex: 1;
+            height: 60rpx;
+            font-size: 32rpx;
+            line-height: 60rpx;
+            text-align: right;
+            font-weight: normal;
+            color: #2BA4DE;
+            background: #FFFFFF;
+        }
+
+
+
+        .arrow-right {
+            margin-left: 10rpx;
+            width: 30rpx;
+            height: 30rpx;
+        }
+    }
+
+    .name-container {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 20rpx;
+        padding: 26rpx 20rpx;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .text1 {
+            font-size: 32rpx;
+            line-height: 48rpx;
+        }
+
+        .input {
+            flex: 1;
+            text-align: right;
+            height: 60rpx;
+            font-size: 32rpx;
+            line-height: 48rpx;
+            color: #2BA4DE;
+            background: #FFFFFF;
+        }
+
+        .placeholder-text {
+            color: #2BA4DE;
+        }
+
+
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35rpx;
+        margin-top: 60rpx;
+
+        .button {
+            box-sizing: border-box;
+            width: 270rpx;
+            font-size: 28rpx;
+            height: 80rpx;
+            background: #31BD81;
+            color: #F2F2F2;
+            border: 1px solid #31BD81;
+            border-radius: 60rpx;
+            text-align: center;
+
+            &.white {
+                line-height: 80rpx;
+                background: #FFFFFF;
+                color: #31BD81;
+            }
+        }
+    }
+}
